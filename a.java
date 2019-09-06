@@ -5,7 +5,7 @@ public class a{
 		System.err.println("I can convert between uppercase letters and lowercase letters (input 'end' to end)");
 		while(true){
 			Scanner scan = new Scanner(System.in);
-			String s = scan.next();
+			String s = scan.nextLine();//next()不读取空格,nextLine读取空格
 			StringBuilder sb = new StringBuilder();
 			if(s.equals("end")){
 				System.out.println("Bye...");
